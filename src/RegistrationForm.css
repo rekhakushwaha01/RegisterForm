@@ -1,0 +1,43 @@
+/* src/RegistrationForm.css */
+.modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%; /* Make it responsive */
+    max-width: 400px; /* Set a max width */
+    border-radius: 5px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between fields */
+}
+
+.registration-form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form input,
+.registration-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Full width */
+}
+
+.book-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-button:hover {
+    background-color: #ff0202;
+}

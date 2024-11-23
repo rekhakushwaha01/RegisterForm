@@ -1,0 +1,18 @@
+/* src/RegisterButton.css */
+.register-button {
+   width: 213px;
+   height: 24px;
+   text-align: center;
+   align-items: center;
+    margin: auto;
+    background-color: #ff0000; /* Button color */padding: 12px;
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+   
+}
+
+.register-button:hover {
+    background-color: #000000; /* Darker color on hover */
+}
